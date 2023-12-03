@@ -54,4 +54,9 @@
             android:name="edad"
             app:argType="integer" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragments"
+        android:name="com.example.ejemplonavigationcomponent.SettingsFragments"
+        android:label="fragment_settings_fragments"
+        tools:layout="@layout/fragment_settings_fragments" />
 </navigation>
